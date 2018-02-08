@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>dile-user-config-box demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-loader.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../dile-user-config-box.html">
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+      </style>
+    </custom-style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic dile-user-config-box demo without src avatar image</h3>
+      <demo-snippet>
+        <template>
+          <dile-user-config-box>
+            <span slot="overlay-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi natus temporibus delectus saepe reprehenderit labore ab nemo est vitae. Ipsum deserunt cupiditate animi sit nihil soluta est sapiente tempora facere.</p>
+              </span>
+          </dile-user-config-box>
+        </template>
+      </demo-snippet>
+      <h3>Basic dile-user-config-box demo with src avatar image opens right</h3>
+      <demo-snippet>
+        <template>
+          <dile-user-config-box horizontal-align="right" src="https://desarrolloweb.com/archivoimg/general/1629.jpg">
+            <span slot="overlay-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi natus temporibus delectus saepe reprehenderit labore ab nemo est vitae. Ipsum deserunt cupiditate animi sit nihil soluta est sapiente tempora facere.</p>
+            </span>
+          </dile-user-config-box>
+        </template>
+      </demo-snippet>
+      <h3>Sized dile-user-config-box demo (opens centered)</h3>
+      <demo-snippet>
+        <template>
+          <dile-user-config-box horizontal-align="center" src="https://desarrolloweb.com/archivoimg/general/1629.jpg" size="48">
+            <span slot="overlay-content">
+              <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+              </ul> 
+            </span>
+          </dile-user-config-box>
+          <dile-user-config-box size="24" horizontal-align="center">
+            <span slot="overlay-content">hoooooola!!!</span>
+          </dile-user-config-box>          
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
