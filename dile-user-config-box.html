@@ -138,7 +138,7 @@ Custom property | Description | Default
       connectedCallback() {
         super.connectedCallback();
         if(this.size && this.horizontalAlign) {
-          mustChangePosition(this.size, this.horizontalAlign);
+          this.mustChangePosition(this.size, this.horizontalAlign);
         }
         document.addEventListener('click', this.onDocumentClick);
       }
