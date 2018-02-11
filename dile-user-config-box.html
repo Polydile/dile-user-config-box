@@ -13,7 +13,7 @@ Custom property | Description | Default
 ----------------|-------------|----------
 `--dile-user-config-box-zindex` | A property that controls the overlay z-index | 999999
 `--dile-user-config-box-overlay` | A mixin that is applied to the overlay | `{}`
-`--dile-user-config-box-icon-color` | A mixin that controls de icon color | #999
+`--dile-user-config-box-icon-color` | A property that controls de icon color | #999
 `--dile-user-config-icon` | A mixin that is applied to the icon | `{}`
 
 -->
@@ -49,7 +49,7 @@ Custom property | Description | Default
       }
 
       #icon {
-        color: var(--dile-user-config-box-icon-color, #999);
+        --iron-icon-fill-color: var(--dile-user-config-box-icon-color, #999);
         @apply --dile-user-config-box-icon;
       }
     </style>

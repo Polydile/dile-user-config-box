@@ -12,20 +12,11 @@ You can use any content in the overlay via an slot named "overlay-content".
 </dile-user-config-box>
 ```
 
-## Install the Polymer-CLI
-
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your element locally.
-
-## Viewing Your Element
-
-```
-$ polymer serve
-```
-
-## Running Tests
-
-```
-$ polymer test
-```
-
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+### Styling
+The following custom properties and mixins are also available for styling:
+Custom property | Description | Default
+----------------|-------------|----------
+`--dile-user-config-box-zindex` | A property that controls the overlay z-index | 999999
+`--dile-user-config-box-overlay` | A mixin that is applied to the overlay | `{}`
+`--dile-user-config-box-icon-color` | A property that controls de icon color | #999
+`--dile-user-config-icon` | A mixin that is applied to the icon | `{}`

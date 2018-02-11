@@ -1,6 +1,6 @@
 {
   "name": "dile-user-config-box",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dile-user-config-box.html",
   "license": "MIT",
   "dependencies": {
