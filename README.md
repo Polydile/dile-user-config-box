@@ -14,6 +14,7 @@ You can use any content in the overlay via an slot named "overlay-content".
 
 ### Styling
 The following custom properties and mixins are also available for styling:
+
 Custom property | Description | Default
 ----------------|-------------|----------
 `--dile-user-config-box-zindex` | A property that controls the overlay z-index | 999999
